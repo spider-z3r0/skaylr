@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfvoe7i66shuc"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_sltd1"]
+
+[node name="Opening scene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="C Major Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 545.0
+offset_top = 135.0
+offset_right = 605.0
+offset_bottom = 161.0
+text = "C Major"
+
+[node name="C Major Button" type="Button" parent="C Major Label"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.342
+anchor_top = 1.0
+anchor_right = 0.342
+anchor_bottom = 1.0
+offset_left = -77.52
+offset_top = -42.0
+offset_right = 89.48
+offset_bottom = 24.0
+icon = SubResource("CanvasTexture_sltd1")
