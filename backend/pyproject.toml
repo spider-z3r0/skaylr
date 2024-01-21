@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "skaylr"
+version = "0.1.0"
+description = "Skaylr is an interactive educational app designed to help users learn and practice the degrees of musical scales. Whether you're a beginner musician or looking to sharpen your music theory skills, Skaylr provides an engaging way to master this essential concept."
+authors = ["Kevin O'Malley, Thomas Lambert"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+uvicorn = "^0.26.0"
+SQLAlchemy = "^1.4.42"
+asyncpg = "^0.29.0"
+jupyter = "^1.0.0"
+httpx = "^0.26.0"
+mingus = "^0.6.1"
+music21 = "^9.1.0"
+pretty-midi = "^0.2.10"
+databases = "^0.8.0"
+aiosqlite = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
